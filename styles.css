@@ -1,0 +1,42 @@
+
+
+body{
+    background-color: black;
+    color: white
+}
+
+.menuHeading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+}
+
+
+/*menuimages*/
+
+
+.burgers{
+    margin: 10px;
+}
+
+.dessert{
+    margin: 10px;
+}
+
+.sideOrders{
+    margin: 10px;
+}
+
+.drinks{
+    margin: 10px;
+}
+
+/*menu container*/
+
+.foodimgs{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+ 
+}
