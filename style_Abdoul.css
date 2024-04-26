@@ -17,20 +17,20 @@ font-family: "Jersey 20 Charted", sans-serif;
     font-style: normal;
   }
   
-  // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+  /* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
 
 .imbue-about {
   font-family: "Imbue", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight:100;
   font-style: normal;
 }
 .about{
     background-color: transparent;
     font-family: "Imbue", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 100;
   font-style: normal;
   
 }
