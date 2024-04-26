@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 50px;
+    padding-top: 70px;
     font-family: "Architects Daughter", cursive;
     font-size: 20px;
 }
@@ -133,3 +134,98 @@ body{
     background-color: rgba(0, 0, 0, 0);
     color: rgba(0, 0, 0, 0);
 }
+
+.fullmenubtn{
+    position: relative;
+    top: -1800px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.fullmenulink{
+
+    display: flex;
+    justify-content: center;
+    background-color: #FF4E00;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: "Architects Daughter", cursive;
+}
+
+.fullmenulink:hover{
+    color: white;
+    transform: translateY(2px);
+}
+
+/*navigation*/
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navLinks{
+    color:black;
+    font-size: 20px;
+    font-family: "Architects Daughter", cursive;
+    text-decoration: none;
+}
+
+.navLinks:hover{
+    color: #FF4E00;
+}
+
+
+
+/*full menu table*/
+.fullMenu{
+  
+    position: absolute;
+    bottom: -1140px;
+    right: 680px;
+    text-align: center;
+}
+
+ table, th, td {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ }
+ 
+ td{
+    font-size: 20px;
+    margin: 10px;
+    font-family: "Architects Daughter", cursive;
+    
+ }
+
+  th{
+    font-size: 36px;
+    font-family: "Architects Daughter", cursive;
+  }
+
+  .redheader{
+    color: #FF4E00;
+  }
+  
+  .grnheader{
+    color: #8EA604;
+  }
+
+  
+  .yllwheader{
+    color: #F5BB00;
+  }
+
+  
+  .brwnheader{
+    color: #58250E;
+  }
