@@ -1,0 +1,36 @@
+html{
+    background-image: url("https://images.pexels.com/photos/5920666/pexels-photo-5920666.jpeg?cs=srgb&dl=pexels-kampus-production-5920666.jpg&fm=jpg");
+background-size: contain;
+background-size: cover;
+width: auto;
+height: 100;
+}
+h1{
+text-align: center;
+font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.jersey-20-charted-regular {
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.imbue-about {
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.about{
+    background-color: transparent;
+    font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
