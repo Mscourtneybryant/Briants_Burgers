@@ -1,8 +1,8 @@
 
 
 body{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .menuHeading{
@@ -122,7 +122,7 @@ body{
     width: 350px;
     height: 450px;
     position: relative;
-    bottom: 1873px;
+    bottom: 1874px;
     left: 1324px;
     cursor: pointer;
     text-align: center;
@@ -172,7 +172,7 @@ nav{
 }
 
 .navLinks{
-    color:black;
+    color:white;
     font-size: 20px;
     font-family: "Architects Daughter", cursive;
     text-decoration: none;
@@ -204,6 +204,7 @@ nav{
     font-size: 20px;
     margin: 10px;
     font-family: "Architects Daughter", cursive;
+    color: white;
     
  }
 
