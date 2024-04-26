@@ -1,8 +1,8 @@
 
 
 body{
-    background-color: black;
-    color: white
+    background-color: white;
+    color: black;
 }
 
 .menuHeading{
@@ -10,8 +10,21 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 50px;
+    font-family: "Architects Daughter", cursive;
+    font-size: 20px;
 }
 
+.menuSubtitle{
+    color:  #FF4E00;
+}
+
+
+.architects-daughter-regular {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /*menuimages*/
 
@@ -39,4 +52,84 @@ body{
     justify-content: center;
     padding: 60px;
  
+}
+
+
+/*menu image overlay*/
+
+.burgersol{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 524px;
+    left: 214px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Architects Daughter", cursive;
+}   
+
+.burgersol:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.dessertol{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 974px;
+    left: 584px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Architects Daughter", cursive;
+}
+
+
+.dessertol:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.sideorderol{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 1424px;
+    left: 954px;
+    cursor: pointer;
+    text-align:center;
+    font-size: 24px;
+    font-family: "Architects Daughter", cursive;
+}
+
+.sideorderol:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.drinksol{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 1873px;
+    left: 1324px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Architects Daughter", cursive;
+}
+
+.drinksol:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
 }
